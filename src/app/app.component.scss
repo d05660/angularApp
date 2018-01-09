@@ -1,0 +1,22 @@
+.site, mat-sidenav-container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.site {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+mat-sidenav {
+  width: 300px;
+}
+
+.full-width {
+  width: 100%;
+}
